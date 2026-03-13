@@ -1,86 +1,176 @@
 # Cloud Native Engineer Journey 🚀
 
-This repository documents my learning journey to become a **Cloud Native / Kubernetes Engineer**.
+![Linux](https://img.shields.io/badge/Linux-Learning-blue)
+![Docker](https://img.shields.io/badge/Containers-Docker-blue)
+![Kubernetes](https://img.shields.io/badge/Orchestration-Kubernetes-blue)
+![GitOps](https://img.shields.io/badge/GitOps-ArgoCD-blue)
+![Monitoring](https://img.shields.io/badge/Monitoring-Prometheus%20%26%20Grafana-green)
+![Status](https://img.shields.io/badge/Learning%20Journey-In%20Progress-orange)
 
-I am building strong foundations in:
+---
 
-- Linux System Administration
-- Networking Fundamentals
+# Objective
+
+This repository documents my **complete learning journey to become a Cloud Native Engineer**.
+
+The goal is to build **production-level skills** in:
+
+- Linux system administration
+- Networking fundamentals
 - Containerization
-- Kubernetes Orchestration
-- Observability and Monitoring
-- GitOps and Platform Engineering
+- Kubernetes orchestration
+- Observability and monitoring
+- GitOps and platform engineering
 
-This journey focuses on **hands-on practice, troubleshooting, and production-level understanding**.
+The entire journey focuses on:
+
+- hands-on labs
+- troubleshooting practice
+- real-world system understanding
+- production-level concepts
 
 ---
 
 # Learning Roadmap
 
-## Phase 1 – Linux Foundations
-- Linux Architecture
-- CLI Mastery
-- File Management
+The learning roadmap is structured into the following phases.
+
+## Phase 1 — Linux Foundations
+
+- Linux architecture
+- CLI mastery
+- File management
 - Permissions
-- Users and Groups
-- Process Management
-- Networking Basics
-- Systemd & Services
-- Storage Management
+- Users and groups
+- Process management
+- Networking fundamentals
+- Systemd services
+- Storage management
 
-## Phase 2 – Containerization
-- Docker Fundamentals
-- Container Networking
-- Docker Volumes
-- Image Building
-- Docker Compose
+---
 
-## Phase 3 – Kubernetes
-- Kubernetes Architecture
+## Phase 2 — Containerization
+
+- Docker architecture
+- Container lifecycle
+- Image building
+- Docker networking
+- Volumes and storage
+
+---
+
+## Phase 3 — Kubernetes
+
+- Kubernetes architecture
 - Pods
 - Deployments
 - Services
-- ConfigMaps & Secrets
+- ConfigMaps
+- Secrets
 - Storage
 - Networking
 - Security
 
-## Phase 4 – Cloud Native Tools
-- Helm
-- Prometheus
-- Grafana
+---
+
+## Phase 4 — Cloud Native Tools
+
+- Helm package manager
+- Prometheus monitoring
+- Grafana dashboards
 - OpenTelemetry
 
-## Phase 5 – GitOps & Platform Engineering
+---
+
+## Phase 5 — GitOps & Platform Engineering
+
+- GitOps workflow
 - ArgoCD
-- GitOps workflows
-- Platform Engineering concepts
+- Platform engineering concepts
+
+---
+
+# Lab Architecture
+
+          Developer Laptop
+               │
+               │
+         VirtualBox Lab
+    ┌───────────────┬───────────────┐
+    │                               │
+
+Ubuntu Server VM Rocky Linux VM
+dev-k8s-ubuntulinux-01 dev-k8s-rockylinux-01
+│ │
+└────────── SSH Remote Access ──────────┘
+│
+VS Code Remote SSH
+
+
+This lab is used to simulate **real infrastructure environments used in DevOps and platform engineering**.
+
+---
+
+# Repository Structure
+
+
+cloud-native-engineer-journey
+│
+├── linux
+│ ├── day01-linux-server-provisioning
+│ ├── day02-linux-cli-mastery
+│ ├── day03-file-management
+│
+├── docker
+│
+├── kubernetes
+│
+├── monitoring
+│
+└── gitops
+
+
+Each day contains:
+
+- theory
+- commands practiced
+- troubleshooting logs
+- screenshots
+- production insights
 
 ---
 
 # Lab Environment
 
-My hands-on lab setup includes:
+Infrastructure used for practice.
 
-- Oracle VirtualBox
-- Ubuntu Server VM
-- Rocky Linux VM
-- VS Code Remote SSH
-- Local Kubernetes Cluster
+| Component | Tool |
+|------|------|
+Operating System | Ubuntu & Rocky Linux |
+Virtualization | Oracle VirtualBox |
+Remote Access | SSH |
+IDE | VS Code |
+Version Control | GitHub |
 
 ---
 
-# Learning Structure
+# Learning Methodology
 
-Each day contains:
+Each topic is studied using the following approach:
 
-- Theory Notes
-- Hands-on Lab
-- Commands Practice
-- Troubleshooting Logs
-- Node Health Checks
+1. Concept understanding
+2. Hands-on lab practice
+3. Troubleshooting real issues
+4. Command mastery
+5. Documentation
+
+This ensures **deep system-level understanding rather than surface-level knowledge**.
+
+---
 
 # Certifications Planned
+
+The following certifications are planned during this journey:
 
 - LFCS – Linux Foundation Certified System Administrator
 - RHCSA – Red Hat Certified System Administrator
@@ -88,22 +178,25 @@ Each day contains:
 - CKAD – Certified Kubernetes Application Developer
 - CKS – Certified Kubernetes Security Specialist
 
+---
+
 # Goal
 
-Become a **Production-ready Cloud Native / Kubernetes Engineer** capable of managing:
+The goal of this journey is to become a **production-ready Cloud Native Engineer** capable of:
 
-- Containerized workloads
-- Kubernetes clusters
-- CI/CD pipelines
-- Observability platforms
-- Secure cloud-native infrastructure
+- managing Linux infrastructure
+- building container platforms
+- operating Kubernetes clusters
+- implementing GitOps workflows
+- managing observability systems
 
 ---
 
 # Author
 
-**Manikandan Gopi**
+Manikandan Gopi  
 
-IT Engineer | Linux | DevOps | Cloud Native
+IT Engineer | Cloud Native Learning Journey
 
-GitHub: https://github.com/manikandangopi
+GitHub:  
+https://github.com/manikandangopi
